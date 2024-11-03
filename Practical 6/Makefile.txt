@@ -1,0 +1,25 @@
+# Compiler
+CC = gcc
+
+# Flags
+CFLAGS = -Wall
+
+# Target executable
+TARGET = matmult_program
+
+# Object files
+OBJ = main.o matmult.o
+
+all: $(TARGET)
+
+$(TARGET): $(OBJ)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJ)
+
+main.o: main.c
+	$(CC) $(CFLAGS) -c main.c
+
+matmult.o: matmult.c
+	$(CC) $(CFLAGS) -c matmult.c
+
+clean:
+	rm -f $(OBJ) $(TARGET)
