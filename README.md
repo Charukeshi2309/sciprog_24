@@ -35,7 +35,7 @@ git add .
 ## Commit the changes with a message:
 git commit -m "add message"
 
-# Push the changes to the main branch:
+## Push the changes to the main branch:
 git push origin main
 
 
