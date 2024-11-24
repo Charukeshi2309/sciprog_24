@@ -3,8 +3,8 @@ In this practical, I explored floating-point arithmetic and developed a foundati
 
 ## File Transfer with SCP
 I used the Secure Copy Protocol (SCP) to transfer files between Brightspace, my local computer, and the SCIPROG virtual machine (VM). The following commands were used:
-scp Conversion.c sp70@sciprog.training.ichec.ie:~/.  
-scp Sum.c sp70@sciprog.training.ichec.ie:~/.  
+scp Conversion.c sp70@sciprog.training.ichec.ie:  
+scp Sum.c sp70@sciprog.training.ichec.ie:  
 
 These commands transferred Conversion.c and Sum.c files to the practical2 directory on the SCIPROG VM.
 
