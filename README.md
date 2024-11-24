@@ -7,7 +7,7 @@
 3. Applying core mathematical concepts and functions.
 5. Implementing widely recognized algorithms.
 
-# Steps to Create a Git Repository
+## Steps to Create a Git Repository
 # Initialize a Git repository:
 git init
 
